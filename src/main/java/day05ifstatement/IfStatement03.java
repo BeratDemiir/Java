@@ -46,6 +46,7 @@ public class IfStatement03 {
                    gun.equalsIgnoreCase("cuma")) {
             System.out.println("Hafta içi...");
         }else {
+
             System.out.println("Gecerli bir gün ismi giriniz");
         }
 
