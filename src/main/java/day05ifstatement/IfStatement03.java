@@ -48,6 +48,7 @@ public class IfStatement03 {
         }else {
 
             System.out.println("Gecerli bir gün ismi giriniz");
+
         }
 
         // 3.yol...
