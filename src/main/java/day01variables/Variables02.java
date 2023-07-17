@@ -8,8 +8,7 @@ public class Variables02 {
         System.out.println(harf1 + harf2);
         System.out.println(harf1);
         System.out.println(harf2);
-        System.out.print(harf1);
-        System.out.println(harf2);
+
         int aCharDeger = 97;
         System.out.println(aCharDeger);
         int unlemCharDeger = 33;

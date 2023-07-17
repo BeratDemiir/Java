@@ -70,8 +70,5 @@ public class IfStatement03 {
             System.out.println("Gecerli bir gün ismi giriniz");
 
         }
-
-
-
     }
 }

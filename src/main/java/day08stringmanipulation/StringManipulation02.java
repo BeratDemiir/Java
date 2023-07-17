@@ -35,20 +35,21 @@ public class StringManipulation02 {
         /*
           Bir grup data'yi ifade eden kod'lara "Regex" denir.
           "Regex" Regular Expression in kisaltilmis halidir.
-          1) Tum rakamlar ==> [0-9]
+          1) Tum rakamlar ==> [0-9]  yada \\d
           2) Tum kucuk harfler ==> [a-z]
           3) Tum buyuk harfler ==> [A-Z]
           4) Tum harfler ==> [a-zA-z]
           5) Sesli harfler ==> [aeiouAEIOU]
-          6) space ==> [ ]
-          7) Tum rakamlar ve tum harfler ==> [0-9a-zA-Z]
+          6) space ==> [ ] yada \\s
+          7) Tum rakamlar ve tum harfler ==> [0-9a-zA-Z]  yada \\w
           8) Tum noktalama isaretleri ==> \\p{Punct}
 
-          1) Rakamlar haric tum karekterler ==> [^0-9]
+          1) Rakamlar haric tum karekterler ==> [^0-9] yada  \\D
           2) kucuk harfler haric tum karekterler ==> [^a-z]
           3) buyuk harfler haric tum karakterler ==> [^A-Z]
           4) Tum harfler haric tum karekterler ==> [^a-zA-Z]
-          5) space haric ==> [^ ]
+          5) space haric ==> [^ ] yada \\S
+          6) Tum rakamlar ve tum harfler haric ==> [^0-9a-zA-Z] yada \\W
       */
 
         // Example: Verilen bir string'de kullanilan noktalama isareti ve rakamlar ve space karekteri haric

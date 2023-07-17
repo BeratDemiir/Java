@@ -54,11 +54,6 @@ public class WrapperClass01 {
 
             // note: Autoboxing ve Unboxing Java tarafindan otamatik olarak olarak yapılır.
 
-
-
-
-
-
         }
     }
 

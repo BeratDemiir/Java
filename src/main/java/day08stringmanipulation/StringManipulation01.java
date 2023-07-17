@@ -10,18 +10,25 @@ public class StringManipulation01 {
         //           Ramazan ==> Rn
 
        Scanner input = new Scanner(System.in);
-   //    System.out.println("Lütfen isminizi giriniz...");
-   //    String isim = input.next();
+       System.out.println("Lütfen isminizi giriniz...");
 
-   //    // 1.Yol...
-   //    char ilkHarf = isim.charAt(0);
-   //    char sonHarf = isim.charAt(isim.length()-1);
-   //    System.out.println(""+ilkHarf+sonHarf);
+        String isim = input.next();
 
-   //    // 2.Yol...
-   //    String ilk = isim.substring(0,1);
-   //    String son = isim.substring(isim.length()-1);
-   //    System.out.println(ilk+son);
+        // 1.Yol...
+
+        char ilkHarf = isim.charAt(0);
+
+        char sonHarf = isim.charAt(isim.length()-1);
+
+        System.out.println(""+ilkHarf+sonHarf);
+
+        // 2.Yol...
+
+        String ilk = isim.substring(0,1);
+
+        String son = isim.substring(isim.length()-1);
+
+        System.out.println(ilk+son);
 
         // Example: Verilen stringdeki tum hayvan isimlerini ekrana yazdırın.
         //         "Ben kedi, esim tavuk, oglum inek sever"

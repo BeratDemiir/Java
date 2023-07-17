@@ -23,12 +23,16 @@ public class Switch03 {
         switch (islem){
             case '+':
                 System.out.println(ilk+ikinci);
+                break;
             case '-':
                 System.out.println(ilk-ikinci);
+                break;
             case '*':
                 System.out.println(ilk*ikinci);
+                break;
             case '/':
                 System.out.println(ilk/ikinci);
+                break;
             case '%':
                 System.out.println((ilk*ikinci) / 100 );
                 break;

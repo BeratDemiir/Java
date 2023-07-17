@@ -38,8 +38,6 @@ import java.util.Scanner;
 
             System.out.println(""+ilkharf+soyIsminIlkHarfi);
 
-
-
         }
     }
 

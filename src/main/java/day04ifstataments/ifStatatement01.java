@@ -47,8 +47,6 @@ package day04ifstataments;
                 System.out.println("Harika sayi");
             }
 
-
-
         }
     }
 
