@@ -113,5 +113,8 @@ public class StringManipulation02 {
         String sonuc1 = baslangic && bitis ? "Harika" : "Normal";
         System.out.println(sonuc1);
 
+        // Note: startsWith() methodu bir kelimenin ne ile basladigini bulmamiza yarar
+        // Note: endsWith() methodu bir kelimenin ne ile bittigini bulmamiza yarar.
+
     }
 }
