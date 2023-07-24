@@ -9,21 +9,18 @@ public class NestedForLoop01 {
         // ****
         // ****
         // ****
-    //      Scanner input = new Scanner(System.in);
-    //      System.out.println("Satir sayisini giriniz");
-    //      int satir =input.nextInt();
-    //      System.out.println("Sutun sayisini giriniz");
-    //      int sutun =input.nextInt();
-    //      System.out.println("Karekter seciniz");
-    //      char ch =input.next().charAt(0);
-    //      for (int i =1; i<=satir ;i++){
-    //          for (int k=1 ;k<=sutun ; k++){
-    //
-    //              System.out.print(ch);
-    //
-    //          }
-    //          System.out.println();
-    //   }
+        Scanner input = new Scanner(System.in);
+        System.out.println("Satir sayisini giriniz");
+        int satir =input.nextInt();
+        System.out.println("Sutun sayisini giriniz");
+        int sutun =input.nextInt();
+        System.out.println("Karekter seciniz");
+        char ch =input.next().charAt(0);
+        for (int i =1; i<=satir ;i++){
+            for (int k=1 ;k<=sutun ; k++){
+                System.out.print(ch);
+            }
+            System.out.println();}
 
         /*
         Example:  Asagidaki sekli cizen kodu yaziniz
