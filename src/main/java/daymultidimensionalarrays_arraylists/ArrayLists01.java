@@ -44,5 +44,31 @@ public class ArrayLists01 {
 
         numes.add(1,50); // verilen index'e elaman ekler.
         System.out.println(numes);// [21, 50, 18, 20]
+
+        List<Integer> prices = new ArrayList<>();
+        prices.add(23);
+        prices.add(185);
+
+        numes.addAll(prices);
+        System.out.println(numes);// [21, 50, 18, 20, 23, 185]
+
+        numes.addAll(2,prices);
+        System.out.println(numes);// [21, 50, 23, 185, 18, 20]
+
+        // ArrayList'lerin eleman sayisi nasil bulunur?
+       int elamanSayisi = numes.size();
+        System.out.println(elamanSayisi);// 8
+
+        // ArrayList'lerde herhangi bir elaman nasil secilir?
+        // get() methodu istenen bir index'teki elamani verir.
+        int e1 = numes.get(3);// 185
+
+        // ArrayKist'lerin bos olup olmadigini nasil anlariz?
+       boolean bos1 = numes.isEmpty();
+        System.out.println(bos1);// false
+
+        // ArrayList'de bir eleman nasil degistirir?
+        numes.set(3,200);
+        System.out.println(numes);// [21, 50, 23, "200", 18, 20]
     }
 }
