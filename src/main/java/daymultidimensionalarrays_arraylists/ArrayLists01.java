@@ -70,5 +70,24 @@ public class ArrayLists01 {
         // ArrayList'de bir eleman nasil degistirir?
         numes.set(3,200);
         System.out.println(numes);// [21, 50, 23, "200", 18, 20]
+
+        // Example: numes ArrayList'indeki tum tek sayilari 11 artirdiktan sonra ekrana yazdiriniz.
+
+        for (int w :numes){
+            if (w%2!=0){
+                numes.set(numes.indexOf(w),w+11);
+            }
+        }
+        System.out.println(numes);// [32, 50, 34, 200, 18, 20]
+
+        // remove() method'unun icine tamsayi koyarsaniz java onu index olarak kabul eder
+        // Example: ArrayList'den 200 elamanini siliniz
+        // Note: Tum tamsayilar Java icin aksi soylenmedikce primitive'dir yani "int" dir.
+        // Note: "primitive" ler Arraylist'lerin elamani olamazlar.
+        // Note: "primitive" i "wrapper Class" a cevirirseniz, non primitive olur ve non primitive ler ArrayList'lerin elamani olur index olmaz.
+        Integer sayi = 200;
+        numes.remove(sayi);
+        System.out.println(numes);// [32, 50, 34, 18, 20]
+
     }
 }
