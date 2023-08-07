@@ -1,4 +1,4 @@
-package daymultidimensionalarrays_arraylists;
+package day16multidimensionalarrays_arraylists;
 
 public class MultiDimensionalArrays02 {
 

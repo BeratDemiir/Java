@@ -1,4 +1,4 @@
-package daymultidimensionalarrays_arraylists;
+package day16multidimensionalarrays_arraylists;
 
 import java.util.ArrayList;
 import java.util.List;
