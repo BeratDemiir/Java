@@ -20,8 +20,8 @@ public class Varargs01 {
         int r2 =  toplam(2,3,4);
         System.out.println(r2);// 9
 
-        int r3 =  toplam(2,3,4,5,6,7,8);
-        System.out.println(r3);// 35
+        int r3 =  toplam(2,3,4,5,6,7,8,4);
+        System.out.println(r3);// 39
 
 
     }
