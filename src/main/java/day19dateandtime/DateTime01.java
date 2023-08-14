@@ -45,5 +45,34 @@ public class DateTime01 {
         // between() methodu kullanildiginda dha eski olan tarih once yazilmalidir.
         Long diference = ChronoUnit.DAYS.between(dobAli,dobVeli);
         System.out.println(diference);// 2824
+
+        // Example: Tom Ali den 3 yil 8 ay 13 gun sonra dogdu Ali ise veliden 1 yil 15 gun once dogdu.
+        //          Tom'un dogum tarihi 18 kasim 2011 ise veli ve ali'nin dogum tarihlerini bulunuz.
+
+        LocalDate tomBirthDay = LocalDate.of(2011,11,18);
+        LocalDate aliBrithDay =tomBirthDay.minusYears(3).minusMonths(8).minusDays(13);// Method chain = method zinciri
+        LocalDate veliBrithDay =aliBrithDay.plusYears(1).plusDays(15);// Method chain = method zinciri
+        System.out.println("Ali'nin dogum tarihi : "+aliBrithDay);// 2008-03-05
+        System.out.println("Veli'nin dogum tarihi : "+veliBrithDay);// 2009-03-20
+
+        // Example : :Istanbul'un fethi ile cumhuriyetin kurulmasi arasinda kac ay oldugunu gosteren kodu yaziniz.
+
+        LocalDate istanbulFethi =LocalDate.of(1453,5,29);
+        LocalDate cumhuriyetinKurulusu =LocalDate.of(1923,10,29);
+
+        Long monthDiference = ChronoUnit.MONTHS.between(istanbulFethi,cumhuriyetinKurulusu);
+        System.out.println(monthDiference);// 5645
+
+        // Example : Verilen tarihin hangi burcta oldugunu gosteren kodu yaziniz.
+
+        LocalDate myDate = LocalDate.of(1999,11,2);
+        int day =myDate.getDayOfMonth();
+        int month = myDate.getMonthValue();
+
+        if (day<23 && month==11) {
+            System.out.println("Akrep Burcu");
+        } else if (day>23 && month==10) {
+            System.out.println("Akrep Burcu");
+        }
     }
 }
