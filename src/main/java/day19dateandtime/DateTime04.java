@@ -49,6 +49,5 @@ public class DateTime04 {
             default:
                 System.out.println("Tanimlanmamis ulke");
         }
-
     }
 }
