@@ -15,14 +15,28 @@ public class StringBuilder01 {
             ii) Eski variable'in pointer'i yeni variable'a dondurulur
             iii) Eger bir variable'i hicbir pointer gostermiyorsa o variable "Garbage Collector" tarafindan silinir
          5) "Mutable class" larda var olan deger degistirilebilir. Orjinal deger korunmaz.
+         6) "String Class" larin "immutable" yapisi "security" icin onemlidir.
+            Ayni degere sahip birden fazla String oldugunda, Java bir tane container olusturur ve ayni degere sahip
+            String'lerin bu container'i kullanmasini temin eder. Bu memory'i korumak icin iyidir ancak container deki degeri
+            bir variable icin degistirdigimizde tum variable'larin etkilenmesi tehlikesi vardir. Bu tehlikeden kurtulmak icin
+            Java String'leri "immutable(degismez)" yapmistir. Fakat herhangi bir variable'nin degerini degistirmek icin Java bir yol bulmustur.
+            Degistirmek istediginiz variable icin yeni bir container olusturur ve variable'in pointer'ini bu yeni variable'a yonlendirir.
+            Boylelikle hem degisim saglanmis hem de digerleri etkilenmis olur.
        */
 
         String str ="Java";
         str="Super Java";
 
-        StringBuilder strb = new StringBuilder("Java");
-        strb.append(" Super");
-        System.out.println(strb);// Java Super
+        // StringBuilder nasil olusturulur?
+        // 1.Yol
+        StringBuilder strb1 = new StringBuilder("Java");
+        System.out.println(strb1);// Java
 
+        // 2.Yol
+        StringBuilder strb2 = new StringBuilder();
+        strb2.append("Java");
+        strb2.append(" is easy");
+        strb2.append(" !!!");
+        System.out.println(strb2);// Java is easy !!!
     }
 }
