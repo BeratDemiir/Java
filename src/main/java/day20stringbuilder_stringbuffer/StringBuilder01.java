@@ -34,9 +34,25 @@ public class StringBuilder01 {
 
         // 2.Yol
         StringBuilder strb2 = new StringBuilder();
+        // Yol a:
         strb2.append("Java");
         strb2.append(" is easy");
         strb2.append(" !!!");
         System.out.println(strb2);// Java is easy !!!
+
+        // Yol b:
+        strb2.append(" Learn").append(" Java earn").append(" money.");
+        System.out.println(strb2);// Java is easy !!! Learn Java earn money.
+
+        // StringBuilder'larda character sayisi nasil bulunur?  ==> length() method'u ile
+        StringBuilder strb3 = new StringBuilder();
+        strb3.append("Cat");
+        strb3.append("xxxxxxxxxxxxxxx");
+        int numOfChar = strb3.length();
+        System.out.println(numOfChar);// 18
+
+        // Capacity asimlarinda capacity var olanin iki katinin iki fazlasina cikar.
+        int capacity = strb3.capacity();
+        System.out.println(capacity);// 34
     }
 }
