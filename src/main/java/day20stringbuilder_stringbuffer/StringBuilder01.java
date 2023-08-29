@@ -48,11 +48,60 @@ public class StringBuilder01 {
         StringBuilder strb3 = new StringBuilder();
         strb3.append("Cat");
         strb3.append("xxxxxxxxxxxxxxx");
+        strb3.append("wwwwwwwwwwww");
         int numOfChar = strb3.length();
         System.out.println(numOfChar);// 18
 
         // Capacity asimlarinda capacity var olanin iki katinin iki fazlasina cikar.
         int capacity = strb3.capacity();
         System.out.println(capacity);// 34
+
+        // setCharAt(2,'r'); Index 2'deki characteri "r" ye cevirir.
+        strb3.setCharAt(2,'r');
+        System.out.println(strb3);// Carxxxxxxxxxxxxxxx
+
+        // delete(3,18); ==> Index 3(dahil) den index 18(haric) e kadar tum characterleri siler
+        strb3.delete(3,18);
+        System.out.println(strb3);// Car
+
+        // deleteCharAt(2); ==> Index 2 deki charecteri siler.
+        strb3.deleteCharAt(2);
+        System.out.println(strb3);// Ca
+
+        // reverse(); methodu StringBuilder'i ters cevirir. Ali ==> ilA
+        // "mutable" larda sadece method kullanmak orijinal degeri degistirmek icin yeterlidir.
+        strb3.reverse();
+        System.out.println(strb3);// wwwwwwwwwwwwaC
+
+        // "Immutable" larda orjinal degeri degeri degistirmek icin method u kullanmak yeterli olmaz bir de "atama islemi" yapmalisiniz
+        String abc ="Java";
+        abc =abc.replace("a","i");
+        System.out.println(abc);// Jivi
+
+        // toString() method'u StringBuilder'lari String'e cevirir.
+       abc = strb3.toString();
+        System.out.println(abc);// wwwwwwwwwwwwaC ==> abc string'i "Jivi" den "wwwwwwwwwwwwaC" degisti.
+
+        // String'den de StringBuilder'a asagıdaki gibi donebilirsiniz.
+        StringBuilder strb4 = new StringBuilder(strb3);
+        System.out.println(strb4);
+
+        // insert(3,"xxxx"); 3. charecterden sonra "xxxx" leri koyar.
+        strb4.insert(3,"xxxx");
+        System.out.println(strb4);// wwwxxxxwwwwwwwwwaC
+
+        // insert(3,"KLMNOQPRSTU",5,8); ==> 3. charecter 'den sonra "KLMNOQPRSTU" String'inin index 5,6,7 deki characterlerini yerlestirir.
+        strb4.insert(3,"KLMNOQPRSTU",5,8);
+        System.out.println(strb4);// wwwQPRxxxxwwwwwwwwwaC
+
+        StringBuilder a = new StringBuilder("Java");
+        StringBuilder b = new StringBuilder("Java");
+
+        // a.compareTo(b); method'u
+        // i) StringBuilder ler tamamiyla ayni ise 0 verir
+        // ii) "a" alfabetik sirada "b" den sonra gelirse pozitif olarak aradaki alfabetik siralama farkini gosterir
+        // ii) "a" alfabetik sirada "b" den once gelirse negatif olarak aradaki alfabetik siralama farkini gosterir
+        int sonuc = a.compareTo(b);
+        System.out.println(sonuc);// 0
     }
 }
