@@ -20,6 +20,19 @@ public class AnimalRunner {
 
        5) Object Class her class'in parent'idir
           Java da Object Class haric her Class'in parent'i vardir.
+          Java'da parent'i olmayan tek Class object Class dir.
+
+      6) "private" method ve variable'lar Child Class'lar tarafindan kullanilamaz
+         "protected" method ve variable'lar Child Class'lar tarafindan kullanilabilir.
+         "default" method ve variable'lar ayni package tarafindan Child Class'lar tarafindan kullanilabilir.
+         "public" method ve variable'lar Child Class'lar tarafindan kullanilabilir
+         Note: "Child Class'lar tarafindan kullanilabilir" olmak "inherit edilebilir" demektir.
+
+      7) 4 tip inheritance vardir
+         i) Multilevel Inheritance: Java bunu kabul eder
+         ii) Hierarchial Inheritance: Bir parent icin coklu child, Java bunu kabul eder
+         iii) Multiple Inheritance: Bir Child'a coklu Parent, Java bunu desteklemez.(Java does not support Multiple Inheritance)
+         iiii) Single Inheritance: Bir Child Class icin bir parent Class demektir, Java bunu destekler.
      */
 
     public static void main(String[] args) {
