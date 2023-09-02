@@ -36,6 +36,5 @@ public class Runner {
         Animal cat6 = new Animal();
         cat6.eat();// Animal eat
 
-
     }
 }
