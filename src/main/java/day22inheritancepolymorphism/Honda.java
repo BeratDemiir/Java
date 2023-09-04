@@ -1,6 +1,5 @@
 package day22inheritancepolymorphism;
 
-public class Car extends Vehicle {
-
+public class Honda extends Car{
 
 }
