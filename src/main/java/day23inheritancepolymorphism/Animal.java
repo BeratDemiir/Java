@@ -14,6 +14,7 @@ public class Animal {
         return a*b;
     }
 
+    // Asagidaki method "Overridden Method"
     public Animal create(){
         return new Animal();
     }

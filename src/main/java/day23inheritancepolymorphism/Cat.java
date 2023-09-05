@@ -21,8 +21,9 @@ public class Cat extends Mammal{
         return a*b+1;
     }
 
+    // Asagidaki method "Overriding Method"
     @Override
-    public Animal create() {
+    public Mammal create() {
         return new Mammal();
     }
 
@@ -46,6 +47,8 @@ public class Cat extends Mammal{
          Note: Aralarinda Parent child iliskisi olmayan Class'lar Overriding'de Return type degisiminde
                Kullanilamazlar. Mesela "Short", "Integer" dan kucuktur, fakat aralarinda "Parent child"
                iliskisi olmadigindan "Integer" yerine "Short" kullanamazsiniz.
-
+         Note: Child'deki method'un Return Type'indan Parent'taki method'un Return type'ina gidiste
+               "IS-A" Relationship olmali.
+         Note: Aralarinda "IS-A" Relationship olan Data Type'lara "Covariant" denir.
     */
 }
