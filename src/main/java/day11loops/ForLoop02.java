@@ -1,4 +1,4 @@
-package day11loop01;
+package day11loops;
 
 public class ForLoop02 {
 
