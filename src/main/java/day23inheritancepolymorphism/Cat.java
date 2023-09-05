@@ -50,5 +50,18 @@ public class Cat extends Mammal{
          Note: Child'deki method'un Return Type'indan Parent'taki method'un Return type'ina gidiste
                "IS-A" Relationship olmali.
          Note: Aralarinda "IS-A" Relationship olan Data Type'lara "Covariant" denir.
+      9) Child<Parent ==> IS-A ( Her kedi hayvandir ama her hayvan kedi degildir.
+                          HAS-A ==> Hayvanlar Kedileri icerir ama tum kediler tum hayvanlari icermez.
+      10) "final" method'lar Override edilemezler, cunku "Overriding" de method body degistirilebilir fakat
+          "final" method body degistirilmesine musade etmez.
+      11) Polymorphism = Overloading + Overrriding
+         Note: Polymorphism nedir? derlerse Overloading ve Overriding'i anlatin
+      12) Overloading ve Overriding arasindaki farklar nelerdir?
+         a) Overloading icin "inheritance" gerekmez fakat Overriding icin gerekir
+         b) "private" method'lar Overload edilebilir, Override edilemezler.
+         c) "final" method'lar Overload edilebilir, Override edilemezler.
+         d) "Overloading" "static poltmorphism" olarak, "Overriding" "dynamic polymorphism" olarak adlandirilir.
+            cunku "static" method'lar Overload edilebilir, Override edilemezler.
+         e) "Overloading" de method signature degisir ama "Overriding" method signature a dokunulmaz.
     */
 }
