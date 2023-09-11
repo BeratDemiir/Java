@@ -1,6 +1,12 @@
 package day29abstraction_collections;
 
-public interface Engine {
+public interface Engine extends Vehicle{
+
+    // Child           Parent
+    // Class     ---> interface  ==> implements
+    // Class     ---> Class     ==> extends
+    // Interface ---> Interface ==> extends
+    // Interface ---> Class     ==> Mumkun degil
 
     // interface'lerdeki tum variable'lar otamatik olarak(default) "public" dir.
     // interface'lerdeki tum variable'lar otamatik olarak(default) "final" dir.
