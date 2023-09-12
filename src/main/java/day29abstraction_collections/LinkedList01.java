@@ -26,8 +26,35 @@ public class LinkedList01 {
         visitors.add("Brad");
         visitors.add("Pitt");
         visitors.add("Brad Pitt");
+        visitors.add(2,"Angelina Julie");
+        visitors.add("Brad Pitt");
+        visitors.add("Tom Hanks");
 
         // LinkedList nasil yazdirilir
-        System.out.println(visitors);// [Tom, Hanks, Tom Hanks, Brad, Pitt, Brad Pitt]
+        System.out.println(visitors);//[Tom, Hanks, Angelina Julie, Tom Hanks, Brad, Pitt, Brad Pitt, Brad Pitt, Tom Hanks]
+        visitors.addLast("Ajda Pekkan");// Son Node(Tail) ekler  Tail--> Son Node nin ozel adidir.
+        visitors.addFirst("Cuneyt Arkin");// ilk Node'ye ekler
+        System.out.println(visitors);// [Cuneyt Arkin, Tom, Hanks, Angelina Julie, Tom Hanks, Brad, Pitt, Brad Pitt, Brad Pitt, Tom Hanks, Ajda Pekkan]
+
+        visitors.removeLast();// Tail'i siler --> Son Node'deki "Ajda Pekkan" i siler
+        System.out.println(visitors);// [Cuneyt Arkin, Tom, Hanks, Angelina Julie, Tom Hanks, Brad, Pitt, Brad Pitt, Brad Pitt, Tom Hanks]
+
+        visitors.removeFirst();// ilk Node'yi siler  --> "Cuneyt Arkin" siler.
+        System.out.println(visitors);// [Tom, Hanks, Angelina Julie, Tom Hanks, Brad, Pitt, Brad Pitt, Brad Pitt, Tom Hanks]
+
+        visitors.removeFirstOccurrence("Tom Hanks");// ilk gorunumun node sil.
+        System.out.println(visitors);// [Tom, Hanks, Angelina Julie, Brad, Pitt, Brad Pitt, Brad Pitt, Tom Hanks]
+
+        visitors.removeLastOccurrence("Brad Pitt");// Son gorunumun Node sil.
+        System.out.println(visitors);// [Tom, Hanks, Angelina Julie, Brad, Pitt, Brad Pitt, Tom Hanks]
+
+       String firstEl = visitors.pop();// Cut + Paste ==> Kes yapistir.
+        System.out.println(firstEl);// Tom
+
+        System.out.println(visitors);// [Hanks, Angelina Julie, Brad, Pitt, Brad Pitt, Tom Hanks]
+
+        LinkedList<String> myList = new LinkedList<>();
+      //  myList.pop();// NoSuchElementException atti cunku LinkedList bos
+
     }
 }
