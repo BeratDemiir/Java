@@ -107,6 +107,12 @@ public class HashMap01 {
         studentAges.replace("Acun Ilicali", 47,60);
         System.out.println(studentAges);// {Ayhan Isik=100, Sadri Alisik=null, Tom=21, Brad=12, Cuneyt=75, Acun Ilicali=53, Ali=88}
 
+        // Example: Map deki herbir entry'i ekrana farkli bir satirda olacak sekilde yazdiriniz.
 
+        // entrySet() method'u Map deki elemanlari bir Set'in icine koyarak size verir.
+        Set<Map.Entry<String,Integer>> entries = studentAges.entrySet();
+        for (Map.Entry<String,Integer> w : entries){
+            System.out.println(w);
+        }
     }
 }
