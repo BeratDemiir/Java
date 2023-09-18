@@ -85,20 +85,4 @@ public class Fp01 {
         System.out.println(toplam);
         // Dusurme azaltma( Toplama cıkarma carpma bolme) gibi islemlerde reduce() method'u kullanilir.
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
