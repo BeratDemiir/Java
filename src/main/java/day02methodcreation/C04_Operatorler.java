@@ -42,8 +42,5 @@ package day02methodcreation;
                 a==b  && b==c
 
          */
-
-
-
         }
     }

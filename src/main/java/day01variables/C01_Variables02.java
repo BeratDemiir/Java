@@ -25,6 +25,6 @@ public class C01_Variables02 {
 
         ogrenciIsmi="Tayfur Eğribacak";
 
-        System.out.println(ogrenciIsmi); // Tayfur
+        System.out.println(ogrenciIsmi); // Tayfur Eğribacak
     }
 }

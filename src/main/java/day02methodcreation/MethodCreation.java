@@ -9,10 +9,6 @@ public class MethodCreation {
 
         System.out.println(carptopla(3,5,4));
 
-
-
-
-
     }
     public static double toplamayap(double a, double b){
         return a+b;
