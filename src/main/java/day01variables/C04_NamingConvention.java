@@ -20,7 +20,7 @@ package day01variables;
 
         /*
            variable ismi olarak buyuk yada kucuk harf yazmaniza java karismaz
-           ancak naming convention soyledir
+           ancak naming convention soyledir;
 
            variable isimleri kucuk harfle baslar ve devam eder
            ancak birden fazla kelime kullanilacaksa

@@ -10,8 +10,8 @@ public class HashSet01 {
        3) "HashSet" ler eklenen elemanlarin siralamasi ile ugrasmaz. Siralama ile alakali zaman harcamaz bu yuzden cok hizli calisir.
        4) "HashSet" ler index kullanmazlar. Cunku siralama rastgele yapildigi icin index manali olmaz.
        5)  HashSet'ler nezaman kullanilir;
-            i) Tekrarsiz elemanlarda
-            ii) Siralama onemli degilse
+            i)   Tekrarsiz elemanlarda
+            ii)  Siralama onemli degilse
             iii) Hiz cok onemli ise
   */
 

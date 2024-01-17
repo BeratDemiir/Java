@@ -10,8 +10,7 @@ package day01variables;
             char krk3='$';
             //char krk4=' .'; // char data turu sadece 1 karakter kabul eder
 
-            long sayi=75232323223L; // int sinirlarindan buyuk bir degeri long variable'a atamak istersek
-            // yanina l veya L yazmaliyiz
+            long sayi=75232323223L; // int sinirlarindan buyuk bir degeri long variable'a atamak istersek yanina "l" veya "L" yazmaliyiz
 
             byte sayi2=34;
 
