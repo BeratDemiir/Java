@@ -40,7 +40,6 @@ package day02methodcreation;
              bir ucgenin 3 kenari a,b,c uzunluklarindadir.
              bu ucgenin eskenar oldugunu kontrol etmek isterseniz
                 a==b  && b==c
-
          */
         }
     }

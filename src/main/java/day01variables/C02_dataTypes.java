@@ -14,7 +14,6 @@ package day01variables;
 
             byte sayi2=34;
 
-
             float sayi3= 4.567F; // java ondalikli sayilari otomatik olarak double kabul eder
                                 // ozellikle float kullanmak istiyorsaniz deger atamasi yaparken yanina
                                // f veya F yazmalisiniz

@@ -24,8 +24,6 @@ public class Scanner01 {
             byte age = input.nextByte();
 
             System.out.println("Hey kullanıcı senin yasin " + age);
-
-
         }
     }
 }
