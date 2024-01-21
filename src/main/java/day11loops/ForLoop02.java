@@ -39,7 +39,7 @@ public class ForLoop02 {
         System.out.println();
 
         // Example: Size verilen bir String'deki 'm' den onceki karekterleri yazdiriniz.
-        //      Luxemburg ==> Luxe
+           //      Luxemburg ==> Luxe
 
         String str1 = "Luxemburg";
         for (int i = 0; i<str1.length() ; i++){

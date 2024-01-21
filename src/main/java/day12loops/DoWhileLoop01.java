@@ -25,10 +25,12 @@ public class DoWhileLoop01 {
 
         double sayi=24.5673;
         String str =String.valueOf(sayi);
+
         // Note: String.valueOf() method'u parantezin icine konulan data nin tipini String yapar.
 
         String decimalpart =str.split("\\.")[1];
         System.out.println(decimalpart);// 5673
+
         // Note: Regex icin nokta kullandiginizda onune "\\" koyunuz. yani nokta "\\." seklinde kullanilir.
 
         int decimalInt =Integer.valueOf(decimalpart);// String'i int'e cevirir.

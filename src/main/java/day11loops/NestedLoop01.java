@@ -11,15 +11,15 @@ public class NestedLoop01 {
                  Day:2
                  Day:3
                  ....
-               Week:2
-                Day:1
-                Day:2
-                Day:3
+              Week:2
+                 Day:1
+                 Day:2
+                 Day:3
                 ....
-               Week:3
-                Day:1
-                Day:2
-                Day:3
+              Week:3
+                 Day:1
+                 Day:2
+                 Day:3
                 ....
          */
 
