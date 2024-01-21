@@ -7,8 +7,8 @@ public class Arrays02 {
     public static void main(String[] args) {
 
         // Kullanici ile beraber bir Array olustrun
-        //   Bir ogretmenin sinifindaki ogrencilerin isimlerin application'a yuklemesini saglayan kodu yaziniz.
 
+        //   Bir ogretmenin sinifindaki ogrencilerin isimlerin application'a yuklemesini saglayan kodu yaziniz.
         Scanner input = new Scanner(System.in);
         System.out.println("Kac ogrenci ismi gireceksiniz");
         int numOfStd = input.nextInt();

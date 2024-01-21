@@ -20,8 +20,8 @@ public class WhileLoops01 {
             i++;
         }
         System.out.println();
-        // Example: 17'den 4'e kadar tum cift sayilari ayni satirda yazdiran kodu yaziniz.
 
+        // Example: 17'den 4'e kadar tum cift sayilari ayni satirda yazdiran kodu yaziniz.
         int k=17;
         while (k>3){
             if (k%2==0){
@@ -30,6 +30,7 @@ public class WhileLoops01 {
             k--;
         }
         System.out.println();
+
         // Example: 12'den 67'ye kadar sayilarin toplamnini veren kodu yaziniz.
         int l=12;
         int toplam=0;

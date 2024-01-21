@@ -8,7 +8,6 @@ public class Arrays03 {
 
 
         // Example: [0,2,3,0,12,0] sifirlari en sona koyunuz
-
         int original[] ={0, 2, 3, 0, 12, 0};
         int yeni[] = new int[original.length];
         int idx =0;
@@ -37,8 +36,8 @@ public class Arrays03 {
         }else
             System.out.println(elaman+ " array'de yok");
 
-        // Example: size verilen bir array'deki en uzun kelimeyi bulunuz.
 
+        // Example: size verilen bir array'deki en uzun kelimeyi bulunuz.
         String sentence = "Java kolaydir calisana, ne kolay ki calismayana.";
         sentence =sentence.replaceAll("\\p{Punct}","");
 
@@ -46,6 +45,5 @@ public class Arrays03 {
         Arrays.sort(words, Comparator.comparingInt(String::length));
         System.out.println(Arrays.toString(words));
         System.out.println(words[words.length-1]);
-
     }
 }

@@ -21,8 +21,8 @@ public class DoWhileLoop01 {
         }while (sayi<100);
         System.out.println("kaybettiniz!");
 
-        // Example: kullanicidan ismini aliniz ilk harfin buyuk olup olmadıgını kontrol ediniz.
 
+        // Example: kullanicidan ismini aliniz ilk harfin buyuk olup olmadıgını kontrol ediniz.
        do {
             System.out.println("isim giriniz");
             char ilkHarf =input.nextLine().charAt(0);
@@ -36,6 +36,5 @@ public class DoWhileLoop01 {
 
         // Infinite Loop: Sonsuz dongu
         // Note: Arttirma azaltma kisminda hata yaparsaniz yada yazmazsaniz "infinite loop sorunsali" olusur.
-
     }
 }

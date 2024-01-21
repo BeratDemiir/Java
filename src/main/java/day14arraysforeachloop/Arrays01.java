@@ -25,7 +25,6 @@ public class Arrays01 {
         }
 
         // Example: String bir array olusturunuz "Tom" ve "Jane" haric tum elamanlari ekrana yazdirin.
-
         String brr[] ={"Jane", "Mark", "Tom", "Ali", "Rojda"};
 
         for (String w : brr){

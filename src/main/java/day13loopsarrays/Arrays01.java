@@ -30,8 +30,8 @@ public class Arrays01 {
         // Array'deki herhangi bir elamani nasil yazdirilir.
         System.out.println(stdAges[4]);// 10
 
-        // Example: Array'deki en kucuk ve en buyuk elamanin toplamini ekrana yazdirin.
 
+        // Example: Array'deki en kucuk ve en buyuk elamanin toplamini ekrana yazdirin.
         Arrays.sort(stdAges); // Bu method Array'i kucuk'ten buyuge dogru siralar.
         System.out.println(Arrays.toString(stdAges));// [10, 11, 12, 12, 12, 13, 14]
 
@@ -40,8 +40,8 @@ public class Arrays01 {
         int son =stdAges[stdAges.length-1]; // son index
         System.out.println(ilk+son);// 24
 
-        // Example: stdAges Array'i icindeki tum elamanlarin toplamini ekrana yazdiran kodu yaziniz.
 
+        // Example: stdAges Array'i icindeki tum elamanlarin toplamini ekrana yazdiran kodu yaziniz.
         // 1.Yol ****
         int sum =0;
         for (int i =0; i<stdAges.length; i++){
@@ -49,8 +49,8 @@ public class Arrays01 {
         }
         System.out.println(sum);// 84
 
-        // 2.Yol ****
 
+        // 2.Yol ****
         int toplam=0;;
         int i=0;
         while (i<stdAges.length){
@@ -59,8 +59,8 @@ public class Arrays01 {
         }
         System.out.println(toplam);
 
-        // 3.Yol ****
 
+        // 3.Yol ****
         int k=0;
         int tplm=0;
         do {
@@ -69,8 +69,8 @@ public class Arrays01 {
         }while (k<stdAges.length);
             System.out.println(tplm);
 
-            // 4.Yol **** for each loop Array'lerde ve Collections'larda kullanilir.
 
+            // 4.Yol **** for each loop Array'lerde ve Collections'larda kullanilir.
         int t =0;
         for (int w: stdAges ){
           t=t+w;
