@@ -18,12 +18,12 @@ public class C01_Variables02 {
 
         System.out.println("Java Candir");
 
-        String          ogrenciIsmi             =             "Matrix      .";
+        String ogrenciIsmi = "Matrix      .";
         // Data turu     variable ismi       assignment(atama)    deger
 
         System.out.println(ogrenciIsmi); // Matrix      .
 
-        ogrenciIsmi="Tayfur Eğribacak";
+        ogrenciIsmi = "Tayfur Eğribacak";
 
         System.out.println(ogrenciIsmi); // Tayfur Eğribacak
     }

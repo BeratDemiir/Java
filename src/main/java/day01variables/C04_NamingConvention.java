@@ -1,22 +1,22 @@
 package day01variables;
 
-    public class C04_NamingConvention {
+public class C04_NamingConvention {
 
-        public static void main(String[] args) {
-
-
-            String str= "java ogrenmek cok zevkli";
-
-            System.out.println(str);
-
-            int sinifMevcudu3_$ = 23;
+    public static void main(String[] args) {
 
 
-            // int while = 45;
+        String str = "java ogrenmek cok zevkli";
 
-            int SAYI= 24;
-            int sayi= 34;
-            int Sayi= 44;
+        System.out.println(str);
+
+        int sinifMevcudu3_$ = 23;
+
+
+        // int while = 45;
+
+        int SAYI = 24;
+        int sayi = 34;
+        int Sayi = 44;
 
         /*
            variable ismi olarak buyuk yada kucuk harf yazmaniza java karismaz
@@ -28,5 +28,5 @@ package day01variables;
            buna CamelCase denir
          */
 
-        }
     }
+}
