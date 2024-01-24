@@ -20,18 +20,18 @@ public class Exceptions03 {
     // Ogrenci notlarini yazdiran bir method olusturunuz
     public static void printGrades(double grade) throws IllegalGradeException {
 
-        if (grade<0 || grade>100){
+        if (grade < 0 || grade > 100) {
             throw new IllegalGradeException("Grade 0 dan az 100 den cok olamaz");
-        }else {
+        } else {
             System.out.println(grade);
         }
     }
 
     // Verilen ismin ilk harfinin buyuk harf olmamasi durumunda Exception atan method yaziniz.
-    public static boolean checkNameFormat(String name){
-        if (name.charAt(0)>='A' && name.charAt(0)<='Z'){
+    public static boolean checkNameFormat(String name) {
+        if (name.charAt(0) >= 'A' && name.charAt(0) <= 'Z') {
             return true;
-        }else {
+        } else {
             throw new IllegalNameException("Isimler buyuk harfle baslamalidir");
         }
     }
