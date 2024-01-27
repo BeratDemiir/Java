@@ -10,7 +10,7 @@ public class Enums02 {
 
         Enums01 months = Enums01.JANUARY;
 
-        switch(months) {
+        switch (months) {
             case JANUARY:
                 System.out.println("Eğer ay Ocak ise bir şey yapın");
                 break;

@@ -17,6 +17,6 @@ public enum Enums01 {
 	 4) Sabitler büyük harflerle yazılmalı, virgül ile ayrılmalı, sonunda noktalı virgül kullanılmamalıdır.
 	 */
 
-    JANUARY,FEBRUARY,MARCH,APRIL,MAY,JUNE,JULY,AUGUST,SEPTEMBER,OCTOBER,NOVEMBER,DECEMBER
+    JANUARY, FEBRUARY, MARCH, APRIL, MAY, JUNE, JULY, AUGUST, SEPTEMBER, OCTOBER, NOVEMBER, DECEMBER
 
 }

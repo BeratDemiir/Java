@@ -23,18 +23,18 @@ public class Iterators01 {
 
         // hasNext() method'o pointer dan sonra eleman varsa "true", yoksa "false" return eder.
         // previous() method'u pointer'i bir onceki elemanin sonuna koyar ustunden atladigi elemani return eder.
-        while (itr.hasNext()){
+        while (itr.hasNext()) {
             itr.next();
         }
-        while (itr.hasPrevious()){
-           String el = itr.previous();
+        while (itr.hasPrevious()) {
+            String el = itr.previous();
             System.out.print(el + " ");// M J A K Z
         }
 
         System.out.println(myList);// [Z, K, A, J, M]
 
         // Example: List'deki tum elemani siliniz.
-        while (itr.hasNext()){
+        while (itr.hasNext()) {
             itr.next();
             itr.remove();
         }
@@ -53,10 +53,10 @@ public class Iterators01 {
         yourList.add("J");
         yourList.add("M");
 
-        Iterator<String>  iterator = yourList.iterator();
+        Iterator<String> iterator = yourList.iterator();
 
-        while (iterator.hasNext()){
-           String el = iterator.next();
+        while (iterator.hasNext()) {
+            String el = iterator.next();
             System.out.print(el);// ZKAJM
         }
     }
