@@ -32,9 +32,8 @@ public class ArrayLists01 {
 
         // Note: containsAll() Method'u bir list'in icinde coklu elamanlarin var olup olmadigini kontrol eder.
         //       hepsi varsa "true"  en az biri varsa "false" verir.
-       boolean sonuc1 = names.containsAll(myNames);
+        boolean sonuc1 = names.containsAll(myNames);
         System.out.println(sonuc1);// true
-
 
 
         List<String> a = new ArrayList<>();
@@ -66,11 +65,11 @@ public class ArrayLists01 {
         salary.add(9500.00);
         salary.add(20500.00);
 
-        for (Double w :salary){
-            if (w<10000){
-               salary.set(salary.indexOf(w),w*1.2);
-            }else {
-                salary.set(salary.indexOf(w), w*1.1);
+        for (Double w : salary) {
+            if (w < 10000) {
+                salary.set(salary.indexOf(w), w * 1.2);
+            } else {
+                salary.set(salary.indexOf(w), w * 1.1);
             }
         }
         System.out.println(salary);
@@ -92,27 +91,27 @@ public class ArrayLists01 {
         //1.Yol
 
         int counter = 0;// Flag
-        for (int i=0; i<m.size(); i++){
+        for (int i = 0; i < m.size(); i++) {
 
-            if (m.size()!=n.size()){
+            if (m.size() != n.size()) {
                 counter++;
                 System.out.println("Listler esit degildir");
                 break;
-            } else if (m.get(i)!=n.get(i)){
-              counter++;
-              System.out.println("Listler esit degildir");
-              break;
-          }
+            } else if (m.get(i) != n.get(i)) {
+                counter++;
+                System.out.println("Listler esit degildir");
+                break;
+            }
         }
-        if (counter==0){
+        if (counter == 0) {
             System.out.println("Listler esittir.");
         }
 
         // 2.Yol
-      boolean esitMi =  m.equals(n);
-        if (esitMi){
+        boolean esitMi = m.equals(n);
+        if (esitMi) {
             System.out.println("Listler esittir");
-        }else {
+        } else {
             System.out.println("Listler esit degildir");
         }
     }

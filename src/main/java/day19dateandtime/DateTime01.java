@@ -79,7 +79,7 @@ public class DateTime01 {
         // 2.Yol
         if ((day >= 21 && month == 3) || (day <= 20 && month == 4)) {
             System.out.println("Koc");
-        } else if ((day>=21 && month==4) || (day<=20 && month==5)) {
+        } else if ((day >= 21 && month == 4) || (day <= 20 && month == 5)) {
             System.out.println("Boga");
         }
     }

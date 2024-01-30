@@ -27,19 +27,19 @@ public class MultiDimensionalArray01 {
         // Example: Bir multidimensional array'i normal array' ceviren kodu yaziniz.
         // {{2, 5, 1}, {32, 75}} ==> {2, 5, 1, 32, 75}
 
-        int brr[][] ={{2, 5, 1}, {32, 75}};
-        int toplam =0;
-        for (int[] w:brr){
-            toplam =toplam+w.length;
+        int brr[][] = {{2, 5, 1}, {32, 75}};
+        int toplam = 0;
+        for (int[] w : brr) {
+            toplam = toplam + w.length;
         }
         System.out.println(toplam);
 
-        int idx =0;
-        int crr[] =new int[toplam];
+        int idx = 0;
+        int crr[] = new int[toplam];
 
-        for (int[] w: brr){
-            for (int k :w){
-                crr[idx] =k;
+        for (int[] w : brr) {
+            for (int k : w) {
+                crr[idx] = k;
                 idx++;
             }
         }
