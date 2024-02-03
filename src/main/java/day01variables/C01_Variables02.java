@@ -10,8 +10,6 @@ public class C01_Variables02 {
        Java'nin baslangic noktasi(entry point) main method'dur
 
        variable'lari datalarimizi saklamak (store) icin olustururuz
-
-
      */
 
     public static void main(String[] args) {

@@ -10,8 +10,6 @@ public class C04_NamingConvention {
         System.out.println(str);
 
         int sinifMevcudu3_$ = 23;
-
-
         // int while = 45;
 
         int SAYI = 24;
@@ -27,6 +25,5 @@ public class C04_NamingConvention {
            sonraki kelimelerin ilk harfleri buyuk harf olur
            buna CamelCase denir
          */
-
     }
 }
