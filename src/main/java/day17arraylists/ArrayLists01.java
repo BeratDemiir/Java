@@ -25,7 +25,6 @@ public class ArrayLists01 {
         names.removeAll(cities);
         System.out.println(names);// [Thomas, Tahsin]
 
-
         List<String> myNames = new ArrayList<>();
         myNames.add("Thomas");
         myNames.add("Tahsin");
@@ -46,12 +45,10 @@ public class ArrayLists01 {
         a.add("Shoes");
 
         // Example: a Listin'de "Shoes" elamaninin ilk gorunumunu siliniz.
-
         a.remove("Shoes");// remove() ilk gorunumu siler
         System.out.println(a);// [Tv, Radio, Laptop, Shoes, Book, Shoes]
 
         // Example : a Listin'deki tum "Shoes" elamaninin  siliniz.
-
         List<String> silinecekler = new ArrayList<>();
         silinecekler.add("Shoes");
         a.removeAll(silinecekler);// Tum "shoes" leri siler.
