@@ -28,10 +28,10 @@ public class HashSet01 {
 
         // Var olan elemani eklerseniz hata vermez, son ekleneni var olan data'nin ustune yazar.(OverWrite)
         emails.add("Mango");
-        System.out.println(emails);// [Apple, Fig, Mango, Apricot, Orange]
+        System.out.println(emails);//  [Apple, Fig, Mango, Apricot, Orange]
 
         emails.add(null);
         emails.add(null);
-        System.out.println(emails);// [null, Apple, Fig, Mango, Apricot, Orange]
+        System.out.println(emails);//  [null, Apple, Fig, Mango, Apricot, Orange]
     }
 }
