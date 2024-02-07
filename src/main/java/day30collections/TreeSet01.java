@@ -18,7 +18,7 @@ public class TreeSet01 {
         // Example 1: sekiz tane unique String elemani alfabetik sirada depolayiniz.
         // 1.Yol:
         Long start1 = LocalTime.now().toNanoOfDay();
-        TreeSet<String>  emails = new TreeSet<>();
+        TreeSet<String> emails = new TreeSet<>();
         emails.add("a@gmail.com");
         emails.add("y@gmail.com");
         emails.add("c@gmail.com");
@@ -32,7 +32,7 @@ public class TreeSet01 {
         System.out.println(end1 - start1);// 996200
 
         // 2.Yol:
-        HashSet<String>  myEmails = new HashSet<>();
+        HashSet<String> myEmails = new HashSet<>();
         myEmails.add("a@gmail.com");
         myEmails.add("y@gmail.com");
         myEmails.add("c@gmail.com");

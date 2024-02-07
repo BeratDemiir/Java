@@ -26,8 +26,8 @@ public class HashTable01 {
         // countryPopulations.put(null, 90000000);// HashTable'ler de key null olamaz NullPointerException atar.
         // countryPopulations.put("France", null); // HashTable'ler de value null olamaz NullPointerException atar.
 
-        Hashtable<String,Students>  myStudents = new Hashtable<>();
-        myStudents.put("Math", new Students("Tom Hanks", "th@gamil.com", 21,true));
+        Hashtable<String, Students> myStudents = new Hashtable<>();
+        myStudents.put("Math", new Students("Tom Hanks", "th@gamil.com", 21, true));
         System.out.println(myStudents);// {Math=[name='Tom Hanks', email='th@gamil.com', age=21, success=true]}
 
 
@@ -35,7 +35,7 @@ public class HashTable01 {
         String name = myStudents.get("Math").name;
         System.out.println(name);// Tom Hanks
 
-       int age = myStudents.get("Math").age;
+        int age = myStudents.get("Math").age;
         System.out.println(age);// 21
     }
 }
