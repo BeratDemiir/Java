@@ -21,7 +21,7 @@ public class HashMap02 {
 
     public static void main(String[] args) {
 
-        HashMap<String, Double>  salaries = new HashMap<>();
+        HashMap<String, Double> salaries = new HashMap<>();
         salaries.put("QA", 110000.00);
         salaries.put("Dev", 130000.00);
         salaries.put("SalesForce", 125000.00);
