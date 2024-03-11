@@ -15,7 +15,6 @@ public class C00_Variable01 {
         System.out.println(sayi); // 30
 
         sayi = sayi + 20;
-
         System.out.println(sayi); // 50
     }
 }
