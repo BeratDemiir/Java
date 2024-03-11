@@ -14,7 +14,7 @@ public class C02_dataTypes {
 
         byte sayi2 = 34;
 
-        float sayi3 = 4.567F; // java ondalikli sayilari otomatik olarak double kabul eder
+        float sayi3 = 4.567F; // java ondalikli sayilari otomatik olarak double kabul eder.
         // ozellikle float kullanmak istiyorsaniz deger atamasi yaparken yanina
         // f veya F yazmalisiniz
 

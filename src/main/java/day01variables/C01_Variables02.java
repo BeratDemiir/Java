@@ -19,7 +19,7 @@ public class C01_Variables02 {
         String ogrenciIsmi = "Matrix      .";
         // Data turu     variable ismi       assignment(atama)    deger
 
-        System.out.println(ogrenciIsmi); // Matrix      .
+        System.out.println(ogrenciIsmi); // Matrix
 
         ogrenciIsmi = "Tayfur Eğribacak";
 
